@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.contenedor{
+  width:1200px;
+  margin: 0 auto;
+}
+
+/*Banner*/
+
+.main .banner{
+  padding: 9px 0 9px 0;
+  border-bottom: 1px solid #f0f0f0;}
+
+.banne.main r .contenedor .banner-principal{
+  width: 100%;
+}
+
+.main .banner .contenedor .banner-principal img{
+  width: 100%;}
+
+.main .banner
+
+
+ /*Menu Principal*/
+
+ .titulo-oferta{
+  margin: 30px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #fff;
+
+ }
+
+ .titulo-oferta .contenedor h1{
+   font-family: sans-serif;
+   font-size: 25px;
+   color: #646276;
+   text-decoration: none;
+ }
+
+ .blog{
+  background: #f7f7f7;
+  padding: 40px 0;
+}
+
+.blog .contenedor{ 
+  overflow: hidden;
+}
+
+  /*ARTICULOS-BLOG*/
+
+.blog .contenedor .articulos-blog{
+  float: left;
+  width: 68%;
+  }
+
+.blog .contenedor .articulos-blog .articulo{
+  background: #fff;
+  padding: 60px 0;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+  }
+
+.blog .contenedor .articulos-blog .articulo .fecha-articulo{
+  color: #c7c7c7;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+.blog .contenedor .articulos-blog .articulo .titulo-articulo{
+  color: #363940;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+.blog .contenedor .articulos-blog .articulo .categoria-articulo{
+  color: #9c9c9c;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  }
+
+.blog .contenedor .articulos-blog .articulo img{
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 0px 0px 0px 80px;
+  }
+
+.blog .contenedor .articulos-blog .articulo .texto-articulo{
+  padding: 0 20px;
+  text-align: justify; 
+  }
+
+.blog .contenedor .articulos-blog .articulo .texto-articulo p{
+  margin-bottom: 20px;
+  color: #363940;
+  }
+
+.blog .contenedor .articulos-blog .articulo .boton{
+  text-align: center;
+  }
+
+.blog .contenedor .articulos-blog .articulo .boton a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  border: 1px solid #bababa;
+  font-size: 14px;
+  color: #7d7d7d;
+
+  }
+  
+.blog .contenedor .articulos-blog .articulo .boton a:hover{
+  background: #7d7d7d;
+  color: #fff;
+  }
+
+  /*ASIDE*/
+
+.aside{
+   float: right;
+   width: 28%;
+  }
+
+.aside .widget{
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #f0f0f0;
+          }
+
+.aside .widget .autor-widget .foto-autor{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.aside .widget .autor-widget .foto-autor img{
+  width: 120px;
+  border-radius: 50%;
+}
+
+.aside .widget .autor-widget .datos-autor{
+  text-align: center;
+
+}
+
+.aside .widget .autor-widget .datos-autor .nombre{
+  color: #363940;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.aside .widget .autor-widget .datos-autor .profesion{
+  color: #9c9c9c;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.aside .widget .autor-widget .datos-autor .info{
+  color: #363540;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+/*FOOTER*/
+
+.footer{
+  background: #fff;
+  padding: 40px;
+  border: 1px solid #f0f0f0;
+  text-align: center;
+  color: #9c9c9c; 
+}
