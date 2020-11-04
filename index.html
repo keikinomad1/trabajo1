@@ -2,60 +2,7 @@
 <html lang="en">
 <head>
   
-    <!--top menu style-->
-    <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-          font-family: sans-serif;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a, .dropbtn {
-          display: inline-block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        li a:hover, .dropdown:hover .dropbtn {
-          background-color: red;
-        }
-        
-        li.dropdown {
-          display: inline-block;
-        }
-        
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f9f9f9;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-        }
-        
-        .dropdown-content a {
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-          text-align: left;
-        }
-        
-        .dropdown-content a:hover {background-color: #f1f1f1;}
-        
-        .dropdown:hover .dropdown-content {
-          display: block;
-        }
-    </style>
+ 
 
 
     <meta charset="UTF-8">
@@ -63,8 +10,9 @@
     <title>Landing page</title>
    
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <link rel="stylesheet" href="Assets/Css/estilos.css">
-    
+        <link rel="stylesheet" href="Assets/Css/estilos.css">
+        <link rel="stylesheet" href="Assets/Css/estilos-topmenu.css">
+        <link rel="stylesheet" href="Assets/Css/lightbox.css">
  
 </head>
 <body>
@@ -86,6 +34,9 @@
                 <div class="dropdown-content">
                     <a href="#">Instagram</a>
                     <a href="#">Facebook</a>
+                </div>
+          </li>
+
          </ul>
 
     <!--Menu-->
@@ -110,7 +61,10 @@
                   <p class="fecha-articulo">18/10/2020</p>    
                   <h3 class="titulo-articulo"> Oferta del dia</h3>
                   <p class="categoria-articulo">Ofertas</p>
-                      <img src="Assets/Images/anillo1.jpg" alt="anillo1" width="500px" height="400px">
+                    
+                      <a class="example-image-link" href="Assets/Images/anillo1.jpg" data-lightbox="Anillo Recina" data-title="Precio $10.000"><img class="centrado" src="Assets/Images/mini-anillo1.jpg" alt="fotografia integrantes amon amarth" width="300px" height="300px"></a>
+                
+
                   <div class="texto-articulo">
                       <p>
                         Anillo de Recina 
@@ -122,7 +76,7 @@
                       
                   </div>
                   <div class="boton">
-                      <a href="a">Seguir leyendo</a>
+                      <a href="a">COMPRAR</a>
                   </div>
               </div>
 
@@ -130,7 +84,8 @@
                   <p class="fecha-articulo">18/10/2020</p>    
                   <h3 class="titulo-articulo"> Oferta del dia</h3>
                   <p class="categoria-articulo">Ofertas</p>
-                      <img src="Assets/Images/anillo2.jpg" alt="anillo2" width="500px" height="400px">
+                      
+                  <img src="Assets/Images/anillo2.jpg" alt="anillo2" width="500px" height="400px">
                   <div class="texto-articulo">
                       <p>
                         Conjunto Aros y anillo turquesa - plata.
@@ -139,7 +94,7 @@
                       
                   </div>
                   <div class="boton">
-                      <a href="a">Seguir leyendo</a>
+                      <a href="a">COMPRAR</a>
                   </div>
               </div>
           </div>
@@ -170,6 +125,7 @@
         <p>(C) Todos los derechos reservados</p>
     </div>
 
-      <script src="assets/Js/Tab-galery.js"></script>
+      <script src="Assets/Js/Tab-galery.js"></script>
+      <script src="Assets/Js/lightbox.js"></script>
   </body>
 </html>
