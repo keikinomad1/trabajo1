@@ -5,27 +5,37 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-family: sans-serif;
-}
+  margin: 0 auto;
+
+  }
+
+  body{
+    width:100%;margin: 0 auto;min-width:600px;max-width:2000px
+  
+  }
 
 .contenedor{
   width:1200px;
   margin: 0 auto;
 }
 
+
+
+
 /*Banner*/
 
 .main .banner{
+  background-color: #163975;
   padding: 9px 0 9px 0;
-  border-bottom: 1px solid #f0f0f0;}
+  border-bottom: 1px solid #b6b7c2;}
 
-.banne.main r .contenedor .banner-principal{
+.main .banner .contenedor .banner-principal{
   width: 100%;
 }
 
 .main .banner .contenedor .banner-principal img{
   width: 100%;}
-
-.main .banner
+  
 
 
  /*Menu Principal*/
@@ -33,7 +43,7 @@
  .titulo-oferta{
   margin: 30px;
   text-align: center;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border: 2px solid #fff;
 
  }
@@ -46,7 +56,7 @@
  }
 
  .blog{
-  background: #f7f7f7;
+  background: #2a6adb;
   padding: 40px 0;
 }
 
@@ -72,14 +82,14 @@
   color: #c7c7c7;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   }
 
 .blog .contenedor .articulos-blog .articulo .titulo-articulo{
   color: #363940;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom:10px;
   }
 
 .blog .contenedor .articulos-blog .articulo .categoria-articulo{
@@ -98,7 +108,7 @@
 }
 .blog .contenedor .articulos-blog .articulo .centrado img{
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   padding-left: 0px;
   
     }
@@ -110,11 +120,39 @@
 
 .blog .contenedor .articulos-blog .articulo .texto-articulo p{
   margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   color: #363940;
+  }
+
+
+  /*Estilos texto articulo*/
+
+  .blog .contenedor .articulos-blog .articulo .texto-articulo .titulo-anillo{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    text-transform: initial;
+  }
+
+  .blog .contenedor .articulos-blog .articulo .texto-articulo .subtitulo-anillo{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: initial;
+  } 
+
+  .blog .contenedor .articulos-blog .articulo .texto-articulo .descripcion-anillo{
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: initial;
+
   }
 
 .blog .contenedor .articulos-blog .articulo .boton{
   text-align: center;
+  text-transform: uppercase;
   }
 
 .blog .contenedor .articulos-blog .articulo .boton a{
@@ -176,16 +214,18 @@
 
 .aside .widget .autor-widget .datos-autor .info{
   color: #363540;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-transform: initial;
 }
 
 /*FOOTER*/
 
 .footer{
-  background: #fff;
+  background: #0a1a36;
   padding: 40px;
-  border: 1px solid #f0f0f0;
   text-align: center;
   color: #9c9c9c; 
 }
