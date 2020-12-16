@@ -72,14 +72,14 @@
   }
 
 .blog .contenedor .articulos-blog .articulo{
-  background: #fff;
+  background: rgb(238, 238, 238);
   padding: 60px 0;
   border: 1px solid #f0f0f0;
   margin-bottom: 20px;
   }
 
 .blog .contenedor .articulos-blog .articulo .fecha-articulo{
-  color: #c7c7c7;
+  color: #f0f0f0;
   font-size: 16px;
   text-align: center;
   margin-bottom: 10px;
